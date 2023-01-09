@@ -1,3 +1,8 @@
+.four-by-two-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 body {
     margin: 0px;
     padding: 0px;
@@ -8,19 +13,40 @@ main {
 }
 
 footer {
-    padding-top: 24px;
-    padding-bottom: 24px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 18px;
+    background-color: #196774;
+    color: white;
 }
 
 img {
     height: 200px;
 }
 
-
 nav {
-    border: 1px;
-    border-color: 1px black;
+    border: 1px solid;
+    border-bottom-color: #363432;
     padding: 16px;
+    background-color: #f0941f;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #44803f;
+}
+
+#nav-text-color {
+    color: white;
+}
+
+h1 {
+    color: #146152;
+}
+
+.table-even-row-background tbody tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+a:hover {
+    background-color: #a4cbc8;
 }
